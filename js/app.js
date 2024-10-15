@@ -10,4 +10,11 @@ for ( let i = 0; i < 100; i++ ) {
         console.log('Fizz')
     } else 
         console.log('-----')
+    // per i multipli di 5 stampare "Buzz"
+    let rest5 = num % 5
+    let numFiveMultiples = rest5 === 0
+    if (numFiveMultiples) {
+        console.log('Buzz')
+    } else 
+        console.log('-----')
 }   
