@@ -14,5 +14,7 @@ for ( let i = 0; i < 100; i++ ) {
         console.log(num,'Fizz')
     } else if (numFiveMultiples) {
         console.log(num,'Buzz')
-    }   
+    } else {
+        console.log(num)
+    } 
 }   
